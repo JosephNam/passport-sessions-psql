@@ -1,0 +1,20 @@
+extends layout
+
+block content
+	div.wrapper(id="splash")
+		.row
+			.col.l12
+				h1.flow-text.center-align HOME SCREEN TEXT
+				h2.flow-text.center-align HOME SCREEN SUB TEXT
+		.container
+			.row
+				form.col.l12(action="/user_login" method="post")
+					.form-group
+						.row
+							.input-field.col.l6
+								input(name="email" type="text" placeholder="Email")
+							.input-field.col.l6
+								input(name="password" type="password" placeholder="Password")
+						.row
+							button(type="submit") Login now
+							a.btn.waves-effect.waves-light(href="/register") Register

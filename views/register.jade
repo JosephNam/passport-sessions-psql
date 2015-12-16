@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	div(id="signup")
+		form(action="/signup" method="post")
+			.form-group
+				label email
+				input(type="text" placeholder="Email" name="email")
+			.form-group
+				label password
+				input(type="password" placeholder="Password" name="password")
+			button(type="submit") Register
