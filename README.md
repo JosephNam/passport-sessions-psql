@@ -2,7 +2,7 @@
 
 Source code from my tutorial on my blog.
 
-Find the tutorial here(placeholder).
+Find the tutorial here http://slightlyangryprogrammer.com/blog/2015/12/18/encrypted-login-authentication-with-node-passport-sessions-postgres-express-bcrypt-tutorial/.
 
 Much credit from https://github.com/manjeshpv/node-express-passport-mysql
 
