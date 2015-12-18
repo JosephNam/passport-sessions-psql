@@ -7,12 +7,11 @@ var bodyParser = require('body-parser');
 
 var users = require('./routes/users');
 
-var flash = require('connect-flash');
-
 var app = express();
 
 //===========passport set up============
 var passport = require('passport');
+
 require('./config/passport')(passport);
 
 //======================================
@@ -38,7 +37,6 @@ app.use(session({
 
 app.use(passport.initialize());
 app.use(passport.session());
-app.use(flash());
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));

@@ -1,7 +1,7 @@
 extends layout
 
 block content
-	div.wrapper(id="splash")
+	div.wrapper
 		.row
 			.col.l12
 				h1.flow-text.center-align HOME SCREEN TEXT
@@ -17,4 +17,4 @@ block content
 								input(name="password" type="password" placeholder="Password")
 						.row
 							button(type="submit") Login now
-							a.btn.waves-effect.waves-light(href="/register") Register
+							a(href="/register") Register
